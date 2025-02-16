@@ -49,22 +49,22 @@ ps3xport v0.2
   Usage: ./ps3xport command [argument ...] [command ...]
 
 Commands :
-  SetKeysFile filename:                       Set the path to the keys.conf file  (default: keys.conf)
-  SetDeviceID (HEX|filename):                 Set the DeviceID needed for decrypting archive2.dat
-  SetPSID (HEX|filename):                     Set the OpenPSID needed for creating new backups
-  ExtractPSID backup_dir output:              Extract the OpenPSID from a backup directory
-  ReadIndex archive.dat:                      Parse the specified index file and print info
-  ReadData archive_XX.dat:                    Parse the specified data file and print info
-  Decrypt archive[_XX].dat dcrptd.dat:        Decrypt the given .dat file
-  Dump backup_dir destination_dir:            Extract the whole backup to the destination directory
-  ExtractFile backup_dir filename dest:       Extract from a backup a specific file
-  ExtractPath backup_dir path dest_dir:       Extract from a backup all files matching a specified path
-  DeleteFile backup_dir filename:             Delete from a backup a specific file
-  DeletePath backup_dir path:                 Delete from a backup all files matching a specified path
-  DeleteProtected backup_dir:                 Deletes the copy-protected files from the backup
-  Add backup_dir directory:                   Add the given directory and subdirs to the backup
-  AddProtected backup_dir directory:          Add the given directory and subdirs to the DRM backup
-  CreateBackup backup_dir cont prot_content:  Create a new backup with a content dir and a DRM content
+  SetKeysFile filename:                    Set the path to the keys.conf file  (default: keys.conf)
+  SetDeviceID (HEX|filename):              Set the DeviceID needed for decrypting archive2.dat
+  SetPSID (HEX|filename):                  Set the OpenPSID needed for creating new backups
+  ExtractPSID backup_dir output:           Extract the OpenPSID from a backup directory
+  ReadIndex archive.dat:                   Parse the specified index file and print info
+  ReadData archive_XX.dat:                 Parse the specified data file and print info
+  Decrypt archive[_XX].dat dcrptd.dat:     Decrypt the given .dat file
+  Dump backup_dir destination_dir:         Extract the whole backup to the destination directory
+  ExtractFile backup_dir filename dest:    Extract from a backup a specific file
+  ExtractPath backup_dir path dest_dir:    Extract from a backup all files matching a specified path
+  DeleteFile backup_dir filename:          Delete from a backup a specific file
+  DeletePath backup_dir path:              Delete from a backup all files matching a specified path
+  DeleteProtected backup_dir:              Deletes the copy-protected files from the backup
+  Add backup_dir directory:                Add the given directory and subdirs to the backup
+  AddProtected backup_dir directory:       Add the given directory and subdirs to the DRM backup
+  CreateBackup backup_dir cont prot_cont:  Create a new backup with a content dir and a DRM content
 
           Set the content path to '-' to ignore it
 ```
