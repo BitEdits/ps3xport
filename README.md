@@ -63,8 +63,8 @@ Commands :
   DeletePath backup_dir path:                 Delete from a backup all files matching the specified path
   DeleteProtected backup_dir:                 Deletes the copy-protected files from the backup
   Add backup_dir directory:                   Add the given directory and subdirs to the backup
-  AddProtected backup_dir directory:          Add the given directory and subdirs to the copy-protected backup
-  CreateBackup backup_dir cont prot_content:  Create a new backup with a content dir and a copy-protected content
+  AddProtected backup_dir directory:          Add the given directory and subdirs to the DRM backup
+  CreateBackup backup_dir cont prot_content:  Create a new backup with a content dir and a DRM content
 
           Set the content path to '-' to ignore it
 ```
