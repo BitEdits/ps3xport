@@ -58,9 +58,9 @@ Commands :
   Decrypt archive[_XX].dat dcrptd.dat:        Decrypt the given .dat file
   Dump backup_dir destination_dir:            Extract the whole backup to the destination directory
   ExtractFile backup_dir filename dest:       Extract from a backup a specific file
-  ExtractPath backup_dir path dest_dir:       Extract from a backup all files matching the specified path
+  ExtractPath backup_dir path dest_dir:       Extract from a backup all files matching a specified path
   DeleteFile backup_dir filename:             Delete from a backup a specific file
-  DeletePath backup_dir path:                 Delete from a backup all files matching the specified path
+  DeletePath backup_dir path:                 Delete from a backup all files matching a specified path
   DeleteProtected backup_dir:                 Deletes the copy-protected files from the backup
   Add backup_dir directory:                   Add the given directory and subdirs to the backup
   AddProtected backup_dir directory:          Add the given directory and subdirs to the DRM backup
